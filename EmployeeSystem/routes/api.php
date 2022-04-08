@@ -30,3 +30,4 @@ Route::delete('management/employee/{employee}', [EmployeeController::class, 'des
 // Payroll API Routes
 Route::post('management/employee/{id}/timein', [PayrollController::class, 'addTimeIn']);
 Route::post('management/employee/{id}/timeout', [PayrollController::class, 'addTimeOut']);
+Route::post('management/employee/{id}/salary', [PayrollController::class, 'showSalary']);

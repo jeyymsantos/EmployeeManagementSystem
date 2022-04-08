@@ -1085,4 +1085,10 @@
   .logo_nu{
    size: 100%;
   }
+  .start{
+    color: #18d26e;
+  }
+  .end{
+    color: rgb(223, 90, 90);
+  }
   

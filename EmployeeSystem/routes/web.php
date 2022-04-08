@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Management\EmployeeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,21 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
 Route::get('/forms', function () {
     return view('forms-element');
 });
 
-Route::get('/dashboard', function () {
-    return view('index');
-});
-Route::get('/login', function () {
-    return view('login');
-});
 Route::get('/payroll', function () {
     return view('payroll');
 });
 
+Route::get('/', [EmployeeController::class, 'index2']);
+Route::post('/add_data', [EmployeeController::class, 'empSave']);

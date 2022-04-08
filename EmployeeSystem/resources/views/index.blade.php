@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/img/favicon.png" rel="icon">
+  <link href="/img/NUB.png" rel="icon">
   <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -29,12 +29,7 @@
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="/css/style.css" >
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.2.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -66,61 +61,7 @@
 
       
 
-        <li class="nav-item dropdown pe-3">
-
-          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            
-            <span class="d-none d-md-block dropdown-toggle ps-2">B. Robles</span>
-          </a><!-- End Profile Image Icon -->
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-            <li class="dropdown-header">
-              <h6>Brenley Ian Robles</h6>
-              <span>Web Designer</span>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>My Profile</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-gear"></i>
-                <span>Account Settings</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-                <i class="bi bi-question-circle"></i>
-                <span>Need Help?</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
+        
 
       </ul>
     </nav><!-- End Icons Navigation -->
@@ -167,12 +108,14 @@
 
     
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="/login">
           <i class="bi bi-box-arrow-in-right"></i>
           <span>Logout</span>
         </a>
-      </li><!-- End Login Page Nav -->
+      </li> -->
+      
+      <!-- End Login Page Nav -->
 
     </ul>
 
@@ -265,21 +208,51 @@
 
               </div>
             </div><!-- End Revenue Card -->
+            <div class="col-lg-6">
+
 
 
       </div>
     </section>
 
+    <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Table with stripped rows</h5>
+
+    <!-- Table with stripped rows -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Employee ID</th>
+          <th scope="col">Full Name</th>
+          <th scope="col">Position</th>
+          <th scope="col">Sick Leave </th>
+          <th scope="col">Vacation Leave</th>
+          <th scope="col">Hourly Rate</th>
+        </tr>
+      </thead>
+      <tbody id="employeeTable">
+         @foreach ($employ as $row)
+        <tr>
+          <td>{{ $row->id}}</td>
+          <td>{{ $row->firstName}} {{ $row->lastName}}</td>
+          <td>{{ $row->position}}</td>
+          <td>{{ $row->sickLeaveCredits}}</td>
+          <td>{{ $row->vacationLeaveCredits}}</td>
+          <td>{{ $row->hourlyRate}}</td>
+        </tr>
+        @endforeach
+      </tbody>
+    </table>
+    <!-- End Table with stripped rows -->
+
+  </div>
+</div>
+            </div>
+
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer" class="footer">
-    <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
-    </div>
-   
-  </footer>End Footer -->
-
+ 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->

@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+  <title>Login</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/img/favicon.png" rel="icon">
+  <link href="/img/NUB.png" rel="icon">
   <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -29,12 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.2.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -89,11 +84,11 @@
                     <div class="col-12">
                       <!-- <button class="btn btn-info w-100" type="submit"  a href="/dashboard"> Login</button> -->
                        <!-- <button class="btn btn-info w-100" type="submit"> Login</button> -->
-                    <a button class="btn btn-info w-100" href="/dashboard" type="submit">Login</a>
+                    <!-- <a button class="btn btn-info w-100" href="/dashboard" type="submit">Login</a>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
-                    </div>
+                    </div> -->
                   </form>
 
                 </div>

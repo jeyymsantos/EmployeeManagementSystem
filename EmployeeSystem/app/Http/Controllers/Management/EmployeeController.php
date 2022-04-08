@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Employee;
 use Validator;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB as FacadesDB;
 
 class EmployeeController extends Controller
 {
@@ -102,5 +104,28 @@ class EmployeeController extends Controller
 
         $employee->delete();
         return response()->json(null, 200);
+    }
+
+    public function viewform(){
+        return view('index');
+    }
+
+    public function index2(){
+        $employ = DB::select('select * from employees');
+        return view('index',['employ' => $employ]);
+    }
+
+    public function empSave(Request $request){
+        $firstname = $request->input('firstname');
+        $lastname = $request->input('lastname');
+        $position = $request->input('position');
+        $sickleave = $request->input('sickleave');
+        $vacationleave = $request->input('vacationleave');
+        $hourlyrate = $request->input('hourlyrate');
+
+
+        DB::insert ('insert into employees (firstName, lastName, position, sickLeaveCredits, vacationLeaveCredits, hourlyRate ) values(?,?,?,?,?,?)'
+        ,[$firstname,$lastname,$position,$sickleave,$vacationleave,$hourlyrate]);
+        return redirect()->back();
     }
 }

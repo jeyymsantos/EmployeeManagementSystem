@@ -9,6 +9,7 @@ class Payroll extends Model
 {
     use HasFactory;
     public $timestamps = false;
+    protected $dateFormat = 'Y/m/d H:i';
     protected $fillable = [
         'id',
         'empID',
