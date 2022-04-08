@@ -112,7 +112,8 @@ class EmployeeController extends Controller
 
     public function index2(){
         $employ = DB::select('select * from employees');
-        return view('index',['employ' => $employ]);
+        $total = DB::table('employees')->count();
+        return view('index',['employ' => $employ, 'total' => $total]);
     }
 
     public function empSave(Request $request){
