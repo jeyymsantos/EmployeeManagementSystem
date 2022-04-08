@@ -15,7 +15,11 @@ class CreatePayrollsTable extends Migration
     {
         Schema::create('payrolls', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('empID');
+            $table->timestamp('timeInDate')->default(null);
+            $table->timestamp('timeOutDate')->default(null);
+            $table->date('markDate')->default(null);
+            $table->string('type')->default('');
         });
     }
 

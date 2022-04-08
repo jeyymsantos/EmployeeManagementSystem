@@ -41,151 +41,145 @@
 
 <body>
     <!-- copy starts here  -->
-    <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top d-flex align-items-center">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
 
-        <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
-                <img src="/img/NUB.png" alt="">
-                <span class="d-none d-lg-block">NU Baliwag</span>
-            </a>
-            <i class="bi bi-list toggle-sidebar-btn"></i>
-        </div><!-- End Logo -->
-
-
-
-        <nav class="header-nav ms-auto">
-            <ul class="d-flex align-items-center">
-
-                <li class="nav-item d-block d-lg-none">
-                    <a class="nav-link nav-icon search-bar-toggle " href="#">
-                        <i class="bi bi-search"></i>
-                    </a>
-                </li><!-- End Search Icon-->
-
-                </li><!-- End Notification Nav -->
+<div class="d-flex align-items-center justify-content-between">
+  <a href="index.html" class="logo d-flex align-items-center">
+    <img src="/img/NUB.png" alt="">
+    <span class="d-none d-lg-block">NU Baliwag</span>
+  </a>
+  <i class="bi bi-list toggle-sidebar-btn"></i>
+</div><!-- End Logo -->
 
 
 
-                <li class="nav-item dropdown pe-3">
+<nav class="header-nav ms-auto">
+  <ul class="d-flex align-items-center">
 
-                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+    <li class="nav-item d-block d-lg-none">
+      <a class="nav-link nav-icon search-bar-toggle " href="#">
+        <i class="bi bi-search"></i>
+      </a>
+    </li><!-- End Search Icon-->
 
-                        <span class="d-none d-md-block dropdown-toggle ps-2">B. Robles</span>
-                    </a><!-- End Profile Image Icon -->
+    </li><!-- End Notification Nav -->
 
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-                        <li class="dropdown-header">
-                            <h6>Brenley Ian Robles</h6>
-                            <span>Web Designer</span>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+  
 
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                <i class="bi bi-person"></i>
-                                <span>My Profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+    <li class="nav-item dropdown pe-3">
 
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                                <i class="bi bi-gear"></i>
-                                <span>Account Settings</span>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+      <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+        
+        <span class="d-none d-md-block dropdown-toggle ps-2">B. Robles</span>
+      </a><!-- End Profile Image Icon -->
 
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-                                <i class="bi bi-question-circle"></i>
-                                <span>Need Help?</span>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+      <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+        <li class="dropdown-header">
+          <h6>Brenley Ian Robles</h6>
+          <span>Web Designer</span>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
 
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <i class="bi bi-box-arrow-right"></i>
-                                <span>Sign Out</span>
-                            </a>
-                        </li>
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>My Profile</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
 
-                    </ul><!-- End Profile Dropdown Items -->
-                </li><!-- End Profile Nav -->
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+            <i class="bi bi-gear"></i>
+            <span>Account Settings</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
 
-            </ul>
-        </nav><!-- End Icons Navigation -->
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>Need Help?</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
 
-    </header><!-- End Header -->
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Sign Out</span>
+          </a>
+        </li>
 
-    <!-- ======= Sidebar ======= -->
-    <aside id="sidebar" class="sidebar">
+      </ul><!-- End Profile Dropdown Items -->
+    </li><!-- End Profile Nav -->
 
-        <ul class="sidebar-nav" id="sidebar-nav">
+  </ul>
+</nav><!-- End Icons Navigation -->
 
-            <li class="nav-item">
-                <a class="nav-link " href="/dashboard">
-                    <i class="bi bi-grid"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li><!-- End Dashboard Nav -->
+</header><!-- End Header -->
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+<ul class="sidebar-nav" id="sidebar-nav">
+
+  <li class="nav-item">
+    <a class="nav-link " href="/dashboard">
+      <i class="bi bi-grid"></i>
+      <span>Dashboard</span>
+    </a>
+  </li><!-- End Dashboard Nav -->
+
+ 
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="">
+      <i class="bi bi-journal-text"></i><span>Employee Record</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="/forms">
+          <i class="bi bi-circle"></i><span>Employee Registration</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+
+ 
+
+  <li class="nav-heading">Pages</li>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="/payroll">
+      <i class="bi bi-person"></i>
+      <span>Payroll</span>
+    </a>
+  </li><!-- End Profile Page Nav -->
 
 
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="">
-                    <i class="bi bi-journal-text"></i><span>Employee Record</span><i
-                        class="bi bi-chevron-down ms-auto"></i>
-                </a>
-                <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                    <li>
-                        <a href="/forms">
-                            <i class="bi bi-circle"></i><span>Employee Registration</span>
-                        </a>
-                    </li>
-                </ul>
-            </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="/login">
+      <i class="bi bi-box-arrow-in-right"></i>
+      <span>Logout</span>
+    </a>
+  </li><!-- End Login Page Nav -->
 
+</ul>
 
+</aside><!-- End Sidebar-->
 
-            <li class="nav-heading">Pages</li>
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="users-profile.html">
-                    <i class="bi bi-person"></i>
-                    <span>Payroll</span>
-                </a>
-            </li><!-- End Profile Page Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-register.html">
-                    <i class="bi bi-card-list"></i>
-                    <span>Register</span>
-                </a>
-            </li><!-- End Register Page Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-login.html">
-                    <i class="bi bi-box-arrow-in-right"></i>
-                    <span>Logout</span>
-                </a>
-            </li><!-- End Login Page Nav -->
-
-        </ul>
-
-    </aside><!-- End Sidebar-->
-
-    <!-- copy ends here -->
+<!-- copy ends here -->
 
 
 
@@ -213,41 +207,20 @@
                             <!-- General Form Elements -->
                             <form>
                                 <div class="row mb-3">
-                                   
+
                                     <label for="inputEmail" class="col-sm-2 col-form-label">Emloyee ID</label>
                                     <div class="col-sm-10">
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Open this qwe qwe</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select employee</option>
+                                            <option value="1">Employee 1</option>
+                                            <option value="2">Employee 2</option>
+                                            <option value="3">Employee 3</option>
+                                        </select>
                                     </div>
                                 </div>
 
                                 <div class="row mb-3">
                                     <label for="inputEmail" class="col-sm-2 col-form-label">Full Name</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" required>
-                                    </div>
-                                </div>
-
-                                <div class="row mb-3">
-                                    <label for="inputEmail" class="col-sm-2 col-form-label">HR ID</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" required>
-                                    </div>
-                                </div>
-
-                                <div class="row mb-3">
-                                    <label for="inputEmail" class="col-sm-2 col-form-label">Sick Leave</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" required>
-                                    </div>
-                                </div>
-
-                                <div class="row mb-3">
-                                    <label for="inputEmail" class="col-sm-2 col-form-label">Vacation Leave</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" required>
                                     </div>
@@ -260,11 +233,36 @@
                                     </div>
                                 </div>
 
+                                <div class="row mb-3">
+                                    <label for="inputDate" class="col-sm-2 col-form-label">Date</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="inputTime" class="col-sm-2 col-form-label">Time</label>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control">
+                                    </div>
+                                </div>
 
+                                <div class="row mb-3">
+                                    <label for="inputEmail" class="col-sm-2 col-form-label">Gross Pay</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label for="inputEmail" class="col-sm-2 col-form-label">Net Pay</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                </div>
 
                                 <div class="row mb-3">
                                     <div class="col-sm-10">
-                                        <button type="submit" class="btn btn-success addEmp">Add Employee</button>
+                                        <button type="submit" class="btn btn-success addEmp">Submit Data</button>
                                     </div>
                                 </div>
 
@@ -281,8 +279,8 @@
 
     </main><!-- End #main -->
 
-    ======= Footer ======= -->
-    <footer id="footer" class="footer">
+   <!-- ======= Footer ======= -->
+    <!-- <footer id="footer" class="footer">
         <div class="copyright">
             &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
         </div>
@@ -293,7 +291,7 @@
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
-    </footer>
+    </footer> -->
     <!-- End Footer
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
